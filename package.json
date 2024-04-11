@@ -1,0 +1,22 @@
+{
+  "name": "pixiv8_render_custom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vite",
+    "preview": "vite preview",
+    "build": "tsc & vite build --config vite.config.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pixi.js": "^8.1.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-replace": "^5.0.5",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.8"
+  }
+}
